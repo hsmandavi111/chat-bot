@@ -1,0 +1,120 @@
+#chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #chat-icon-container {
+    width: 50px; /* Adjust the width as per your needs */
+    height: 50px; /* Adjust the height as per your needs */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #chat-icon {
+   width: 70%;
+  height: auto;
+  cursor: pointer;
+  }
+  
+  #chat-window {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: #eef5f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid #046085;
+  }
+  
+  #chat-header {
+    /* background-color: #4285f4; */
+    background: linear-gradient(to right, #a3dd96, #1b619b);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  
+  #chat-header h2 {
+    margin: 0;
+  }
+  
+  #close-button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #chat-messages {
+    height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  #chat-input {
+    padding: 5px;
+    display: flex;
+    /* padding-bottom: 12px; */
+  }
+  
+  #chat-input input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* padding-bottom: 10px; */
+  }
+  
+  #chat-input button {
+    border: none;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    
+  }
+
+
+  .user-message {
+    text-align: right;
+    background-color: #aacff5; 
+    border-radius: 3px;
+    margin-top: 5px;
+    float: right;
+    clear: both;
+    padding: 5px 7px;
+}
+
+.bot-message {
+  text-align: left;
+  background-color: #b0ecda;
+  border-radius: 3px;
+  margin-top: 5px;
+  float: left;
+  clear: both;
+  padding: 5px 7px;
+}
+  
+.chat-content {
+  height: 300px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+
+/* #message-container {
+  display: flex;
+} */
+
+/* .user-message,
+.bot-message {
+  flex-grow: 1;
+} */
